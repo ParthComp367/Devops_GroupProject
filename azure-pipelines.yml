@@ -9,8 +9,6 @@ steps:
     inputs:
       packageType: 'sdk'
       version: '8.x'
-  
-
 
   - script: dotnet build --configuration Release
     displayName: 'Build Project'
